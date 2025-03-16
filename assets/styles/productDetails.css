@@ -1,0 +1,72 @@
+.photos {
+    width: 60%;
+}
+
+.photos > div:nth-child(1) {
+    height: 100vh;
+}
+
+.details {
+    width: 30%;
+}
+
+.description > ul > li {
+    font-size: medium;
+}
+
+.properties > .item:nth-child(1) > div {
+    height: 30px;
+    width: 30px;
+}
+
+.btn-container {
+    width: 30%;
+}
+
+.minus {
+    display: none;
+}
+
+.size-chart {
+    width: 100%;
+    border-bottom: white;
+    transition: all 1s ease-in;
+}
+
+.chart-name {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.185);
+    transition: all 0.5s ease-in;
+}
+
+.size-table {
+    width: 100%;
+}
+
+.size-chart:hover {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.185);
+    transition: all 0.5s ease-out;
+}
+
+.size-chart:hover  .plus {
+    display: none;
+}
+
+.size-chart:hover  .minus {
+    display: block;
+    transition: all 0.5s ease-in;
+}
+
+table {
+    transition: all 0s ease-in;
+    opacity: 0;
+}
+
+.size-chart:hover table {
+    transition: all 1s ease-out;
+    opacity: 1;
+}
+
+.size-chart:hover .chart-name {
+    border-bottom: white;
+    transition: all 0.5s ease-out;
+}

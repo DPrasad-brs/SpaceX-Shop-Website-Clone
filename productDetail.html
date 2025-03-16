@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceX Shop Website Clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/styles/productDetails.css">
+    <link rel="stylesheet" href="./assets/styles/footer.css">
+</head>
+<body>
+    <header>
+      <nav class="navbar bg-black border-bottom border-body d-flex flex-row justify-content-around align-items-center pt-3" data-bs-theme="dark">
+            
+        <div class="w-50 d-flex flex-row align-items-center">
+          <a class="navbar-brand" href="./index.html">
+              <img src="https://shop.spacex.com/cdn/shop/files/SpaceX_logo_white_6eaf0441-42af-4396-974e-d6dc2f8ff45c_160x.png?v=1614778073" alt="Bootstrap" width="150" height="50">
+          </a>
+          
+          <ul class="d-flex list-unstyled my-auto">
+            <li>
+              <div class="dropdown">
+                <a class="btn text-white border-0 fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  MENS
+                </a>
+              
+                <ul class="dropdown-menu rounded-0 mt-3 border-0">
+                  <li><a class="dropdown-item" href="./menShirts.html">Shirts</a></li>
+                  <li><a class="dropdown-item" href="#">Outerwear</a></li>
+                  <li><a class="dropdown-item" href="#">View All</a></li>
+                </ul>
+              </div>
+            </li>
+
+            <li>
+              <div class="dropdown">
+                <a class="btn text-white border-0 fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  WOMENS
+                </a>
+              
+                <ul class="dropdown-menu rounded-0 mt-3 border-0">
+                  <li><a class="dropdown-item" href="#">Shirts</a></li>
+                  <li><a class="dropdown-item" href="#">Outerwear</a></li>
+                  <li><a class="dropdown-item" href="#">View All</a></li>
+                </ul>
+              </div>
+            </li>
+
+            <li>
+              <div class="dropdown">
+                <a class="btn text-white border-0 fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  KIDS
+                </a>
+              
+                <ul class="dropdown-menu rounded-0 mt-3 border-0">
+                  <li><a class="dropdown-item" href="#">Shirts</a></li>
+                  <li><a class="dropdown-item" href="#">Outerwear</a></li>
+                  <li><a class="dropdown-item" href="#">View All</a></li>
+                </ul>
+              </div>
+            </li>
+
+            <li>
+              <div class="dropdown">
+                <a class="btn text-white border-0 fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  ACCESSORIES
+                </a>
+              
+                <ul class="dropdown-menu rounded-0 mt-3 border-0">
+                  <li><a class="dropdown-item" href="#">View All</a></li>
+                </ul>
+              </div>
+            </li>
+
+            <li>
+              <div class="dropdown">
+                <a class="btn text-white border-0 fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  FLIGHT SHIRTS
+                </a>
+              
+                <ul class="dropdown-menu rounded-0 mt-3 border-0">
+                  <li><a class="dropdown-item" href="#">View All</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="w-25 fw-medium">
+          <ul class="d-flex list-unstyled w-100 justify-content-around my-auto">
+            <li class="text-secondary">ACCOUNT</li>
+            <li class="text-secondary">SEARCH</li>
+            <li class="text-white"><a class="text-white text-decoration-none" href="./cart.html">CART <span>(0)</span></a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+      <div class="top p-5 d-flex justify-content-around">
+        <div class="photos">
+          <div class="overflow-auto">
+            <img class="w-100 mb-4" src="https://shop.spacex.com/cdn/shop/files/SpaceX_Starship_Flight_8_Tshirt_Back_900x.png?v=1741304703" alt="">
+            <img class="w-100" src="https://shop.spacex.com/cdn/shop/files/STARSHIP_FLIGHT_8_UNISEX_BLACK_T-SHIRT_FRONT_900x.png?v=1741304703" alt="">
+          </div>
+
+          <div class="size-chart mt-5 border-top">
+            <div class="chart-name d-flex justify-content-between align-items-center py-4">
+              <span class="text-black fw-medium">SIZE CHART</span>
+
+              <div class="icons">
+                <svg class="plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
+                </svg>
+
+                <svg class="minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash" viewBox="0 0 16 16">
+                  <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8"/>
+                </svg>
+              </div>
+            </div>
+
+            <div class="size-table w-100">
+              <table class="w-100 mb-5">
+                <tr>
+                  <th class="py-3 text-semibold fw-medium">SIZE</th>
+                  <th class="py-3 text-semibold fw-medium text-center">S</th>
+                  <th class="py-3 text-semibold fw-medium text-center">M</th>
+                  <th class="py-3 text-semibold fw-medium text-center">L</th>
+                  <th class="py-3 text-semibold fw-medium text-center">XL</th>
+                  <th class="py-3 text-semibold fw-medium text-center">2XL</th>
+                  <th class="py-3 text-semibold fw-medium text-center">3XL</th>
+                  <th class="py-3 text-semibold fw-medium text-center">4XL</th>
+                  <th class="py-3 text-semibold fw-medium text-center">5XL</th>
+                </tr>
+
+                <tr class="border border-start-0 border-end-0">
+                  <th class="py-3 text-semibold fw-medium border-end">LENGTH</th>
+                  <td class="py-3 text-secondary text-center">28"</td>
+                  <td class="py-3 text-secondary text-center">29"</td>
+                  <td class="py-3 text-secondary text-center">30"</td>
+                  <td class="py-3 text-secondary text-center">31"</td>
+                  <td class="py-3 text-secondary text-center">32"</td>
+                  <td class="py-3 text-secondary text-center">33"</td>
+                  <td class="py-3 text-secondary text-center">34"</td>
+                  <td class="py-3 text-secondary text-center">35"</td>
+                </tr>
+
+                <tr class="border border-start-0 border-end-0">
+                  <th class="py-3 text-semibold fw-medium border-end">WIDTH</th>
+                  <td class="py-3 text-secondary text-center">19"</td>
+                  <td class="py-3 text-secondary text-center">20.5"</td>
+                  <td class="py-3 text-secondary text-center">22"</td>
+                  <td class="py-3 text-secondary text-center">24"</td>
+                  <td class="py-3 text-secondary text-center">26"</td>
+                  <td class="py-3 text-secondary text-center">28"</td>
+                  <td class="py-3 text-secondary text-center">30"</td>
+                  <td class="py-3 text-secondary text-center">32"</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+  
+        <div class="details">
+          <div>
+            <h4 class="text-uppercase text-dark">Unisex Starship Flight 8 T-Shirt</h4>
+            <h5 class="text-dark mt-3 mb-4">$30.00</h5>
+            <hr>
+          </div>
+
+          <div class="description mb-5">
+            <h6 class="mb-1 mt-4">Fabric Content:</h6>
+
+            <ul class="ps-3">
+              <li class="text-secondary">Small-5X: 60% Cotton / 40% Polyester</li>
+            </ul>
+          </div>
+
+          <div class="properties">
+            <div class="item mt-3">
+              <p class="text-secondary mb-2">Color: Black</p>
+
+              <div class="rounded-circle bg-black"></div>
+            </div>
+
+            <div class="item mt-3">
+              <p class="text-secondary mb-2">Size:</p>
+
+              <select class="w-100 p-2 rounded-0 border-secondary-subtle text-secondary" name="" id="">
+                <option class="text-dark fw-medium" value="S">S</option>
+                <option class="text-dark fw-medium" value="M">M</option>
+                <option class="text-dark fw-medium" value="L">L</option>
+                <option class="text-dark fw-medium" value="XL">XL</option>
+                <option class="text-dark fw-medium" value="2XL">2XL</option>
+                <option class="text-dark fw-medium" value="3XL">3XL</option>
+                <option class="text-dark fw-medium" value="4XL">4XL</option>
+                <option class="text-dark fw-medium" value="5XL">5XL</option>
+              </select>
+            </div>
+
+            <div class="item mt-3">
+              <p class="text-secondary">Quantity:</p>
+
+              <div class="bg-white btn-container p-2 border border-secondary-subtle d-flex justify-content-around">
+                <button class="border-0 m-0 cnt-btn bg-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash" viewBox="0 0 16 16">
+                        <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8"/>
+                    </svg>
+                </button>
+
+                <button class="border-0 m-0 cnt-btn bg-white">1</button>
+
+                <button class="border-0 m-0 cnt-btn bg-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                    </svg>
+                </button>
+              </div>
+            </div>
+
+            <div class="item mt-3 mb-4">
+              <button class="border-0 my-2 text-white bg-black fw-medium p-2 w-100">ADD TO CART</button>
+            </div>
+
+            <div class="item">
+              <button class="border border-start-0 border-end-0 bg-white p-2 w-100 fw-medium d-flex justify-content-between align-items-center">
+                <span>MORE INFORMATION</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-5 border border-start-0 border-end-0">
+      <div class="container">
+        <h4 class="text-black text-center">YOU MAY ALSO LIKE</h4>
+
+        <div class="like w-100 d-flex justify-content-around align-items-center mt-5">
+          <div class="item w-25 mx-1">
+            <img class="w-100" src="https://shop.spacex.com/cdn/shop/files/SpaceX_Starship_Flight_8_Patch_600x.png?v=1741304739" alt="">
+            <p class="mt-3 mb-0 text-center fw-medium">STARSHIP FLIGHT 8 MISSION PATCH</p>
+            <p class="m-0 text-center fw-medium">$15.00</p>
+          </div>
+
+          <div class="item w-25 mx-1">
+            <img class="w-100" src="https://shop.spacex.com/cdn/shop/files/SpaceX_Starship_Flight_7_Tshirt_Back_600x.png?v=1736547938" alt="">
+            <p class="mt-3 mb-0 text-center fw-medium">UNISEX STARSHIP FLIGHT 7 T-SHIRT</p>
+            <p class="m-0 text-center fw-medium">$30.00</p>
+          </div>
+
+          <div class="item w-25 mx-1">
+            <img class="w-100" src="https://shop.spacex.com/cdn/shop/files/STARLINK-BLANKET-TOTE_600x.png?v=1738085109" alt="">
+            <p class="mt-3 mb-0 text-center fw-medium">STARLINK BLANKET AND TOTE</p>
+            <p class="m-0 text-center fw-medium">$50.00</p>
+          </div>
+
+          <div class="item w-25 mx-1">
+            <img class="w-100" src="https://shop.spacex.com/cdn/shop/files/STARSHIPFLIGHT2_MENS-BLACK-BACK_600x.png?v=1693602833" alt="">
+            <p class="mt-3 mb-0 text-center fw-medium">UNISEX STARSHIP FLIGHT 2 T-SHIRT</p>
+            <p class="m-0 text-center fw-medium">$30.00</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-5">
+      <div class="container">
+        <h4 class="text-black text-center">RECENTLY VIEWED</h4>
+
+        <div class="like w-100 d-flex justify-content-center align-items-center mt-5">
+          <div class="item w-25 mx-1">
+            <img class="w-100" src="https://shop.spacex.com/cdn/shop/files/STARLINK-BLANKET-TOTE_600x.png?v=1738085109" alt="">
+            <p class="mt-3 mb-0 text-center fw-medium">STARSHIP FLIGHT 8 MISSION PATCH</p>
+            <p class="m-0 text-center fw-medium">$15.00</p>
+          </div>
+
+          <div class="item w-25 mx-1">
+            <img class="w-100" src="https://shop.spacex.com/cdn/shop/files/Unisex_SpaceX_PulloverHoodie_MilitaryGreen_Front_600x.png?v=1738007546" alt="">
+            <p class="mt-3 mb-0 text-center fw-medium">UNISEX STARSHIP FLIGHT 7 T-SHIRT</p>
+            <p class="m-0 text-center fw-medium">$30.00</p>
+          </div>
+
+          <div class="item w-25 mx-1">
+            <img class="w-100" src="https://shop.spacex.com/cdn/shop/files/Mens_F9_TSHIRT_Maroon_Front_600x.png?v=1731542151" alt="">
+            <p class="mt-3 mb-0 text-center fw-medium">STARLINK BLANKET AND TOTE</p>
+            <p class="m-0 text-center fw-medium">$50.00</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-black p-5 d-flex flex-column justify-content-between" id="footer">
+      <div class="d-flex justify-content-center my-4 mx-5">
+        <ul class="list-unstyled d-flex w-50 justify-content-evenly m-0">
+          <li><a href="https://shop.spacex.com/pages/faqs">FAQs</a></li>
+          <li><a href="https://shop.spacex.com/search">Search</a></li>
+          <li><a href="https://shop.spacex.com/policies/privacy-policy">Privacy Policy</a></li>
+          <li><a href="https://shop.spacex.com/policies/terms-of-service">Terms & Conditions</a></li>
+        </ul>
+      </div>
+      
+      <p class="text-white-50 mx-5 fw-medium">&copy; SPACEX STORE</p>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

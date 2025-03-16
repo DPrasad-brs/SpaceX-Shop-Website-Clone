@@ -1,0 +1,33 @@
+.item {
+    width: 48%;
+}
+
+.hoveredImg {
+    display: none;
+}
+
+.actualImg:hover {
+    display: none;
+}
+
+.actualImg:hover + .hoveredImg {
+    display: block;
+}
+
+.actualImg-info {
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+}
+
+.second-img {
+    display: none;
+}
+
+.actualImg-info:hover + div > .first-img {
+    display: none;
+}
+
+.actualImg-info:hover + div > .second-img {
+    display: block;
+}

@@ -1,0 +1,43 @@
+.product {
+    height: 20vh;
+}
+
+.product-heading > h6:nth-child(1), .product-heading > .product {
+    width: 70%;
+}
+
+.product-heading > h6:nth-child(2), .product-heading > .quantity {
+    width: 15%;
+}
+
+.product-heading > h6:nth-child(3), .product-heading > .total {
+    width: 15%;
+}
+
+.product-name {
+    font-size: 0.9em;
+}
+
+.product-color, .product-cost {
+    font-size: 0.8em;
+}
+
+.remove {
+    font-size: 0.7em;
+    letter-spacing: 1px;
+    border-bottom: 1px solid black;
+    width: fit-content;
+}
+
+.remove:hover {
+    cursor: pointer;
+    border: none;
+}
+
+.grand-total h6:nth-child(1) {
+    font-size: 1em;
+}
+
+.grand-total h6:nth-child(2) {
+    font-size: 0.9em;
+}

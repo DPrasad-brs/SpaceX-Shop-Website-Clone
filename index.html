@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceX Shop Website Clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/styles/index.css">
+    <link rel="stylesheet" href="./assets/styles/footer.css">
+</head>
+<body>
+    <header>
+      <nav class="navbar bg-black border-bottom border-body d-flex flex-row justify-content-around align-items-center pt-5" data-bs-theme="dark">
+            
+        <div class="w-50 d-flex flex-row align-items-center">
+          <a class="navbar-brand" href="./index.html">
+              <img src="https://shop.spacex.com/cdn/shop/files/SpaceX_logo_white_6eaf0441-42af-4396-974e-d6dc2f8ff45c_160x.png?v=1614778073" alt="Bootstrap" width="150" height="50">
+          </a>
+          
+          <ul class="d-flex list-unstyled my-auto">
+            <li>
+              <div class="dropdown">
+                <a class="btn text-white border-0 fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  MENS
+                </a>
+              
+                <ul class="dropdown-menu rounded-0 mt-3 border-0">
+                  <li><a class="dropdown-item" href="./menShirts.html">Shirts</a></li>
+                  <li><a class="dropdown-item" href="#">Outerwear</a></li>
+                  <li><a class="dropdown-item" href="#">View All</a></li>
+                </ul>
+              </div>
+            </li>
+
+            <li>
+              <div class="dropdown">
+                <a class="btn text-white border-0 fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  WOMENS
+                </a>
+              
+                <ul class="dropdown-menu rounded-0 mt-3 border-0">
+                  <li><a class="dropdown-item" href="#">Shirts</a></li>
+                  <li><a class="dropdown-item" href="#">Outerwear</a></li>
+                  <li><a class="dropdown-item" href="#">View All</a></li>
+                </ul>
+              </div>
+            </li>
+
+            <li>
+              <div class="dropdown">
+                <a class="btn text-white border-0 fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  KIDS
+                </a>
+              
+                <ul class="dropdown-menu rounded-0 mt-3 border-0">
+                  <li><a class="dropdown-item" href="#">Shirts</a></li>
+                  <li><a class="dropdown-item" href="#">Outerwear</a></li>
+                  <li><a class="dropdown-item" href="#">View All</a></li>
+                </ul>
+              </div>
+            </li>
+
+            <li>
+              <div class="dropdown">
+                <a class="btn text-white border-0 fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  ACCESSORIES
+                </a>
+              
+                <ul class="dropdown-menu rounded-0 mt-3 border-0">
+                  <li><a class="dropdown-item" href="#">View All</a></li>
+                </ul>
+              </div>
+            </li>
+
+            <li>
+              <div class="dropdown">
+                <a class="btn text-white border-0 fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  FLIGHT SHIRTS
+                </a>
+              
+                <ul class="dropdown-menu rounded-0 mt-3 border-0">
+                  <li><a class="dropdown-item" href="#">View All</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="w-25 fw-medium">
+          <ul class="d-flex list-unstyled w-100 justify-content-around my-auto">
+            <li class="text-secondary">ACCOUNT</li>
+            <li class="text-secondary">SEARCH</li>
+            <li class="text-white"><a class="text-white text-decoration-none" href="./cart.html">CART <span>(0)</span></a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+      <img class="w-100" src="https://shop.spacex.com/cdn/shop/files/Banner_Starship_Flight_8_2200x.jpg?v=1741653250" alt="">
+    </section>
+
+    <section class="d-flex flex-column align-items-center py-5">
+      <h4 class="text-black mb-5">FEATURED PRODUCTS</h4>
+
+      <div class="d-flex justify-content-around">
+        <div class="item">
+          <img class="actualImg w-100" src="http://203.193.173.125/buildriseshine/design/spacex-clone-homepage/assets/img/product-nonhover.jpg" alt="">
+          <img class="hoveredImg w-100" src="http://203.193.173.125/buildriseshine/design/spacex-clone-homepage/assets/img/product-hover.jpg" alt="">
+          <p class="text-center fw-medium mt-3 mb-0">SPACEX F9 MODEL</p>
+          <p class="fw-medium text-center m-0">$150.00</p>
+        </div>
+
+        <div class="item">
+          <img class="actualImg w-100" src="http://203.193.173.125/buildriseshine/design/spacex-clone-homepage/assets/img/product-nonhover.jpg" alt="">
+          <img class="hoveredImg w-100" src="http://203.193.173.125/buildriseshine/design/spacex-clone-homepage/assets/img/product-hover.jpg" alt="">
+          <p class="text-center fw-medium mt-3 mb-0">SPACEX F9 MODEL</p>
+          <p class="fw-medium text-center m-0">$150.00</p>
+        </div>
+      </div>
+
+      <div class="btn bg-black rounded-0 text-white fs-6 fw-medium mt-5 px-4" style="width: fit-content;">VIEW ALL FEATURED</div>
+    </section>
+
+    <section>
+      <div class="d-flex justify-content-around">
+        <div class="item position-relative">
+          <a class="actualImg-info bg-white py-2 px-4 text-decoration-none text-black" href="#">
+            <p class="text-center fw-medium my-0">MEN</p>
+            <p class="fw-medium text-center m-0">VIEW PRODUCTS</p>
+          </a>
+          <div>
+            <img class="first-img w-100" src="http://203.193.173.125/buildriseshine/design/spacex-clone-homepage/assets/img/product-nonhover.jpg" alt="">
+            <img class="second-img w-100" src="http://203.193.173.125/buildriseshine/design/spacex-clone-homepage/assets/img/product-hover.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="item position-relative">
+          <a class="actualImg-info bg-white py-2 px-4 text-decoration-none text-black" href="#">
+            <p class="text-center fw-medium my-0">WOMEN</p>
+            <p class="fw-medium text-center m-0">VIEW PRODUCTS</p>
+          </a>
+          <div>
+            <img class="first-img w-100" src="http://203.193.173.125/buildriseshine/design/spacex-clone-homepage/assets/img/product-nonhover.jpg" alt="">
+            <img class="second-img w-100" src="http://203.193.173.125/buildriseshine/design/spacex-clone-homepage/assets/img/product-hover.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="item position-relative">
+          <a class="actualImg-info bg-white py-2 px-4 text-decoration-none text-black" href="#">
+            <p class="text-center fw-medium my-0">ACCESSORIES</p>
+            <p class="fw-medium text-center m-0">VIEW PRODUCTS</p>
+          </a>
+          <div>
+            <img class="first-img w-100" src="http://203.193.173.125/buildriseshine/design/spacex-clone-homepage/assets/img/product-nonhover.jpg" alt="">
+            <img class="second-img w-100" src="http://203.193.173.125/buildriseshine/design/spacex-clone-homepage/assets/img/product-hover.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="d-flex flex-column align-items-center py-5">
+      <h4 class="text-black mb-5">TRENDING</h4>
+
+      <div class="d-grid">
+
+        <div class="row px-5 py-3">
+          <div class="col">
+            <a href="./productDetail.html"><img class="w-100" src="https://shop.spacex.com/cdn/shop/files/SpaceX_Starship_Flight_8_Tshirt_Back_700x.png?v=1741304703" alt=""></a>
+            
+            <p class="text-center mt-3 mb-2 text-black fw-medium text-uppercase">Unisex Starship Flight 8 T-Shirt</p>
+            <p class="text-center text-black fw-medium">$30.00</p>
+          </div>
+  
+          <div class="col">
+            <a href="./productDetail.html"><img class="w-100" src="https://shop.spacex.com/cdn/shop/files/SpaceX_Starship_Flight_8_Patch_800x.png?v=1741304739" alt=""></a>
+            
+            <p class="text-center mt-3 mb-2 fw-medium text-uppercase">Starship Flight 8 Mission Patch</p>
+            <p class="text-center text-black fw-medium">$15.00</p>
+          </div>
+  
+          <div class="col">
+            <a href="./productDetail.html"><img class="w-100" src="https://shop.spacex.com/cdn/shop/files/Starlinktravelcoffeemug_White-S2_900x.png?v=1736558473" alt=""></a>
+            
+            <p class="text-center mt-3 mb-2 text-black fw-medium text-uppercase">Starlink Mug</p>
+            <p class="text-center text-black fw-medium">$30.00</p>
+          </div>
+        </div>
+
+        <div class="row px-5 py-3">
+          <div class="col">
+            <a href="./productDetail.html"><img class="w-100" src="https://shop.spacex.com/cdn/shop/files/Starlinktumbler_Black-S2_800x.png?v=1736558202" alt=""></a>
+            
+            <p class="text-center mt-3 mb-2 text-black fw-medium text-uppercase">Starlink Bottle</p>
+            <p class="text-center text-black fw-medium">$40.00</p>
+          </div>
+  
+          <div class="col">
+            <a href="./productDetail.html"><img class="w-100" src="https://shop.spacex.com/cdn/shop/files/STARLINK-BLANKET-TOTE_900x.png?v=1738085109" alt=""></a>
+            
+            <p class="text-center mt-3 mb-2 fw-medium text-uppercase">STARLINK BLANKET AND TOTE</p>
+            <p class="text-center text-black fw-medium">$50.00</p>
+          </div>
+  
+          <div class="col">
+            <a href="./productDetail.html"><img class="w-100" src="https://shop.spacex.com/cdn/shop/products/Cap_StarlinkAdjustable_89b6913b-9f97-43f2-8b4c-d557fb84b41a_900x.png?v=1634588243" alt=""></a>
+            
+            <p class="text-center mt-3 mb-2 text-black fw-medium text-uppercase">STARLINK ADJUSTABLE CAP</p>
+            <p class="text-center text-black fw-medium">$35.00</p>
+          </div>
+        </div>
+
+        <div class="row px-5 py-3">
+          <div class="col">
+            <a href="./productDetail.html"><img class="w-100" src="https://shop.spacex.com/cdn/shop/files/SpaceX_Starship_Flight_7_Tshirt_Back_900x.png?v=1736547938" alt=""></a>
+            
+            <p class="text-center mt-3 mb-2 text-black fw-medium text-uppercase">Unisex Starship Flight 7 T-Shirt</p>
+            <p class="text-center text-black fw-medium">$30.00</p>
+          </div>
+  
+          <div class="col">
+            <a href="./productDetail.html"><img class="w-100" src="https://shop.spacex.com/cdn/shop/files/SpaceX_Starship_Flight_7_Patch_800x.png?v=1737085560" alt=""></a>
+            
+            <p class="text-center mt-3 mb-2 fw-medium text-uppercase">Starship Flight 7 Mission Patch</p>
+            <p class="text-center text-black fw-medium">$15.00</p>
+          </div>
+  
+          <div class="col">
+            <a href="./productDetail.html"><img class="w-100" src="https://shop.spacex.com/cdn/shop/products/HEATSHIELD_HOODIE_MENS_MEDIUM_BACK_900x.png?v=1689021321" alt=""></a>
+            
+            <p class="text-center mt-3 mb-2 text-black fw-medium text-uppercase">Unisex Starship Heatshield Pullover Hoodie</p>
+            <p class="text-center text-black fw-medium">$65.00</p>
+          </div>
+        </div>
+
+        <div class="row px-5 py-3">
+          <div class="col">
+            <a href="./productDetail.html"><img class="w-100" src="https://shop.spacex.com/cdn/shop/files/Unisex_SpaceX_ZipHoodie_Black_Front_900x.png?v=1738007459" alt=""></a>
+            
+            <p class="text-center mt-3 mb-2 text-black fw-medium text-uppercase">Unisex SpaceX Zipper Hoodie</p>
+            <p class="text-center text-black fw-medium">$65.00</p>
+          </div>
+  
+          <div class="col">
+            <a href="./productDetail.html"><img class="w-100" src="https://shop.spacex.com/cdn/shop/files/Unisex_SpaceX_PulloverHoodie_MilitaryGreen_Front_900x.png?v=1738007546" alt=""></a>
+            
+            <p class="text-center mt-3 mb-2 fw-medium text-uppercase">Unisex SpaceX Pullover Hoodie</p>
+            <p class="text-center text-black fw-medium">$65.00</p>
+          </div>
+  
+          <div class="col">
+            <a href="./productDetail.html"><img class="w-100" src="https://shop.spacex.com/cdn/shop/files/Unisex_SpaceX_CrewSweatshirt_Black_Front_900x.png?v=1738007606" alt=""></a>
+            
+            <p class="text-center mt-3 mb-2 text-black fw-medium text-uppercase">Unisex SpaceX Sweatshirt</p>
+            <p class="text-center text-black fw-medium">$65.00</p>
+          </div>
+        </div>
+
+        <div class="row px-5 py-3">
+          <div class="col">
+            <a href="./productDetail.html"><img class="w-100" src="https://shop.spacex.com/cdn/shop/files/Mechazilla_wall_decal_800x.png?v=1731537018" alt=""></a>
+            
+            <p class="text-center mt-3 mb-2 text-black fw-medium text-uppercase">SPACEX MECHAZILLA WALL DECAL</p>
+            <p class="text-center text-black fw-medium">$75.00</p>
+          </div>
+  
+          <div class="col">
+            <a href="./productDetail.html"><img class="w-100" src="https://shop.spacex.com/cdn/shop/products/MicrosoftTeams-image_23_900x.png?v=1668472985" alt=""></a>
+            
+            <p class="text-center mt-3 mb-2 fw-medium text-uppercase">Starship Adjustable Cap</p>
+            <p class="text-center text-black fw-medium">$35.00</p>
+          </div>
+  
+          <div class="col">
+            <a href="./productDetail.html"><img class="w-100" src="https://shop.spacex.com/cdn/shop/files/Banana_for_scale_wall_decal_800x.png?v=1731536990" alt=""></a>
+            
+            <p class="text-center mt-3 mb-2 text-black fw-medium text-uppercase">SPACEX BANANA FOR SCALE WALL DECAL</p>
+            <p class="text-center text-black fw-medium">$75.00</p>
+          </div>
+        </div>
+
+        <div class="row px-5 py-3">
+          <div class="col">
+            <a href="./productDetail.html"><img class="w-100" src="https://shop.spacex.com/cdn/shop/files/SpaceX_Starship_Flight_6_Tshirt_Back_Black_900x.png?v=1731359541" alt=""></a>
+            
+            <p class="text-center mt-3 mb-2 text-black fw-medium text-uppercase">Unisex Starship Flight 6 T-Shirt</p>
+            <p class="text-center text-black fw-medium">$30.00</p>
+          </div>
+  
+          <div class="col">
+            <a href="./productDetail.html"><img class="w-100" src="https://shop.spacex.com/cdn/shop/files/SpaceX_Starship_Flight_6_Patch_800x.png?v=1731349507" alt=""></a>
+            
+            <p class="text-center mt-3 mb-2 fw-medium text-uppercase">Starship Flight 6 Mission Patch</p>
+            <p class="text-center text-black fw-medium">$15.00</p>
+          </div>
+  
+          <div class="col">
+            <a href="./productDetail.html"><img class="w-100" src="https://shop.spacex.com/cdn/shop/files/SpaceX_Banana_Plush_Side_View_aa57cc67-bb15-4932-9662-45227bc9881b_900x.png?v=1731722566" alt=""></a>
+            
+            <p class="text-center mt-3 mb-2 text-black fw-medium text-uppercase">SPACEX STARSHIP FLIGHT 6 BANANA - PRE SALE</p>
+            <p class="text-center text-black fw-medium">$30.00</p>
+          </div>
+        </div>
+
+        <div class="row px-5 py-3">
+          <div class="col">
+            <a href="./productDetail.html"><img class="w-100" src="https://shop.spacex.com/cdn/shop/files/Mens_F9_TSHIRT_Maroon_Front_900x.png?v=1731542151" alt=""></a>
+            
+            <p class="text-center mt-3 mb-2 text-black fw-medium text-uppercase">Men's F9 T-Shirt</p>
+            <p class="text-center text-black fw-medium">$35.00</p>
+          </div>
+  
+          <div class="col">
+            <a href="./productDetail.html"><img class="w-100" src="https://shop.spacex.com/cdn/shop/files/Mens_Dragon_T-Shirt-Navy_Front_1f8d4116-05f4-4b26-9137-ba93068c4570_900x.png?v=1731541568" alt=""></a>
+            
+            <p class="text-center mt-3 mb-2 fw-medium text-uppercase">Men's Dragon T-Shirt</p>
+            <p class="text-center text-black fw-medium">$35.00</p>
+          </div>
+  
+          <div class="col">
+            <a href="./productDetail.html"><img class="w-100" src="https://shop.spacex.com/cdn/shop/files/Mens_SpaceX_T-Shirt_Black_Front_900x.png?v=1731542708" alt=""></a>
+            
+            <p class="text-center mt-3 mb-2 text-black fw-medium text-uppercase">Men's SpaceX T-Shirt</p>
+            <p class="text-center text-black fw-medium">$35.00</p>
+          </div>
+        </div>
+
+        <div class="row px-5 py-3">
+          <div class="col">
+            <a href="./productDetail.html"><img class="w-100" src="https://shop.spacex.com/cdn/shop/files/Unisex_SpaceX_LST-Shirt_Black_Front_900x.png?v=1731546912" alt=""></a>
+            
+            <p class="text-center mt-3 mb-2 text-black fw-medium text-uppercase">Unisex SpaceX Long Sleeve T-Shirt</p>
+            <p class="text-center text-black fw-medium">$40.00</p>
+          </div>
+  
+          <div class="col">
+            <a href="./productDetail.html"><img class="w-100" src="https://shop.spacex.com/cdn/shop/files/Mens_FH_TSHIRT_Maroon_Front_900x.png?v=1731542474" alt=""></a>
+            
+            <p class="text-center mt-3 mb-2 fw-medium text-uppercase">Men's Falcon Heavy T-Shirt</p>
+            <p class="text-center text-black fw-medium">$35.00</p>
+          </div>
+  
+          <div class="col">
+            <a href="./productDetail.html"><img class="w-100" src="https://shop.spacex.com/cdn/shop/files/Unisex_Dragon_Hat_Navy_Front_900x.png?v=1731543245" alt=""></a>
+            
+            <p class="text-center mt-3 mb-2 text-black fw-medium text-uppercase">Dragon Adjustable Cap</p>
+            <p class="text-center text-black fw-medium">$35.00</p>
+          </div>
+        </div>
+
+        <div class="row px-5 py-3">
+          <div class="col">
+            <a href="./productDetail.html"><img class="w-100" src="https://shop.spacex.com/cdn/shop/files/XDadhatMilitaryGreenSide_900x.png?v=1695061522" alt=""></a>
+            
+            <p class="text-center mt-3 mb-2 text-black fw-medium text-uppercase">X Adjustable Cap</p>
+            <p class="text-center text-black fw-medium">$35.00</p>
+          </div>
+  
+          <div class="col">
+            <a href="./productDetail.html"><img class="w-100" src="https://shop.spacex.com/cdn/shop/files/Unisex_Dragon_Hat_Maroon_Front_900x.png?v=1731543070" alt=""></a>
+            
+            <p class="text-center mt-3 mb-2 fw-medium text-uppercase">Falcon Adjustable Cap</p>
+            <p class="text-center text-black fw-medium">$35.00</p>
+          </div>
+  
+          <div class="col">
+            <a href="./productDetail.html"><img class="w-100" src="https://shop.spacex.com/cdn/shop/products/Cap_XAdjustable_front_900x.png?v=1623185349" alt=""></a>
+            
+            <p class="text-center mt-3 mb-2 text-black fw-medium text-uppercase">X Adjustable Cap</p>
+            <p class="text-center text-black fw-medium">$35.00</p>
+          </div>
+        </div>
+
+        <div class="row px-5 py-3">
+          <div class="col">
+            <a href="./productDetail.html"><img class="w-100" src="https://shop.spacex.com/cdn/shop/files/SpaceX_Starship_Flight5_Tshirt_Back_45ad79ee-9d16-4f75-9bf6-6ddf109419d9_900x.png?v=1722462944" alt=""></a>
+            
+            <p class="text-center mt-3 mb-2 text-black fw-medium text-uppercase">Unisex Starship Flight 5 T-Shirt</p>
+            <p class="text-center text-black fw-medium">$30.00</p>
+          </div>
+  
+          <div class="col">
+            <a href="./productDetail.html"><img class="w-100" src="https://shop.spacex.com/cdn/shop/files/SpaceX_Starship_Flight_5_Patch_800x.png?v=1728506804" alt=""></a>
+            
+            <p class="text-center mt-3 mb-2 fw-medium text-uppercase">Starship Flight 5 Mission Patch</p>
+            <p class="text-center text-black fw-medium">$15.00</p>
+          </div>
+  
+          <div class="col">
+            <a href="./productDetail.html"><img class="w-100" src="https://shop.spacex.com/cdn/shop/files/DRAGON_SCALEMODEL_FRONT_800x.png?v=1724454450" alt=""></a>
+            
+            <p class="text-center mt-3 mb-2 text-black fw-medium text-uppercase">SPACEX DRAGON SCALE MODEL - PRE SALE</p>
+            <p class="text-center text-black fw-medium">$300.00</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="btn bg-black rounded-0 text-white fs-6 fw-medium mt-3 px-4" style="width: fit-content;">VIEW ALL TRENDING</div>
+    </section>
+
+    <section class="bg-black p-5 d-flex flex-column justify-content-between" id="footer">
+      <div class="d-flex justify-content-center my-4 mx-5">
+        <ul class="list-unstyled d-flex w-50 justify-content-evenly m-0">
+          <li><a href="https://shop.spacex.com/pages/faqs">FAQs</a></li>
+          <li><a href="https://shop.spacex.com/search">Search</a></li>
+          <li><a href="https://shop.spacex.com/policies/privacy-policy">Privacy Policy</a></li>
+          <li><a href="https://shop.spacex.com/policies/terms-of-service">Terms & Conditions</a></li>
+        </ul>
+      </div>
+      
+      <p class="text-white-50 mx-5 fw-medium">&copy; SPACEX STORE</p>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
